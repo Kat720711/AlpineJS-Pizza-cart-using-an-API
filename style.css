@@ -1,0 +1,139 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f3ee;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: 'Harlow Solid Italic', cursive;
+    color: #d34d4c;
+    margin-bottom: 0;
+}
+
+.navbar {
+    background-color: #d34d4c;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: #ffb703;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f9a602;
+}
+
+footer {
+    background-color: #252422;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact_us {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact {
+    text-align: left;
+    flex: 1 1 300px;
+    padding: 20px;
+    max-width: 300px; 
+}
+
+.contact h2 {
+    color: #d34d4c;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.contact div {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+body {
+    background-image: url('public/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .contact_us {
+        flex-direction: column;
+    }
+
+    .contact {
+        text-align: center;
+        margin-bottom: 20px;
+        max-width: 100%; 
+    }
+}
